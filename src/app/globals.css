@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    /* This use for add color to background */
+    body{
+        background-color: #14161b;
+    }
+}
+
+/*Use this for give the gap between each cards*/
+.slick-slide > div{
+    margin: 0 10px;
+}
